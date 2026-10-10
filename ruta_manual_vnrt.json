@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "description": "Cableado manual H1-sw2-sw1-sw3-H3. No representa descubrimiento LLDP. Si cambia el cableado, deshabilitar y revisar.",
+  "route": [
+    {"switch": "00:00:1a:74:90:39:89:4a", "port": 2},
+    {"switch": "00:00:1a:74:90:39:89:4a", "port": 1},
+    {"switch": "00:00:a2:23:f2:c0:45:47", "port": 2},
+    {"switch": "00:00:a2:23:f2:c0:45:47", "port": 3},
+    {"switch": "00:00:ca:27:2d:26:57:44", "port": 3},
+    {"switch": "00:00:ca:27:2d:26:57:44", "port": 2}
+  ],
+  "port_macs": {
+    "00:00:1a:74:90:39:89:4a": {"1": "fa:16:3e:8b:27:af", "2": "fa:16:3e:23:e7:40"},
+    "00:00:a2:23:f2:c0:45:47": {"2": "fa:16:3e:f6:11:3e", "3": "fa:16:3e:66:81:d7"},
+    "00:00:ca:27:2d:26:57:44": {"3": "fa:16:3e:c7:63:ca", "2": "fa:16:3e:d1:f4:93"}
+  }
+}
